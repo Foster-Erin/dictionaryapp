@@ -15,7 +15,6 @@ searchBtn.addEventListener("click", function (e) {
 
 searchBtn.addEventListener("click", function (e) {
   e.preventDefault()
-  // Get input data
   let word = input.value
   if (word === "") {
     alert("Word is required")
